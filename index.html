@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style/wireframe.css" />
+  <script src="index.js"></script>
+  <title>Learn Javascript</title>
+</head>
+
+<body>
+  <section id="Q1">
+    <h1>Q1: Even or Odd</h1>
+    <input type="number" name="number" placeholder="Enter Number..." id="num_Q1"/>
+
+    <button id="submit_Q1">Submit</button>
+
+    <h3 id="output_Q1"></h3>
+  </section>
+  
+  <br>
+  <hr>
+  <br>
+  
+  <section id="Q2">
+    <h1>Q2: Type of Number</h1>
+    <input type="number" name="number" placeholder="Enter Number..." id="num_Q2"/>
+
+    <button id="submit_Q2">Submit</button>
+
+    <h3 id="output_Q2"></h3>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section id="Q3">
+    <h1>Q3: Temprature Converter</h1>
+    <input type="number" name="number" placeholder="Enter Temprature in Celsius..." id="celTemp"/>
+
+    <button id="submit_Q3">Submit</button>
+
+    <h3 id="output_Q3"></h3>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section id="Q4">
+    <h1>Q4: Money Converter</h1>
+    <input type="number" name="number" placeholder="Enter Amount in Dollar..." id="dollarAmount"/>
+
+    <button id="submit_Q4">Submit</button>
+
+    <h3 id="output_1_Q4"></h3>
+    <h3 id="output_2_Q4"></h3>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section id="Q5">
+    <h1>Q5: Test Score Average</h1>
+    <input type="number" name="number" placeholder="Enter 1st Test Score..." id="score1"/>
+    <input type="number" name="number" placeholder="Enter 2nd Test Score..." id="score2"/>
+    <input type="number" name="number" placeholder="Enter 3rd Test Score..." id="score3"/>
+
+    <button id="submit_Q5">Submit</button>
+
+    <h3 id="output_Q5"></h3>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section id="Q6">
+    <h1>Q6: Grading</h1>
+    <input type="number" name="number" placeholder="Enter Score..." id="score"/>
+
+    <button id="submit_Q6">Submit</button>
+
+    <h3 id="output_Q6"></h3>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section id="Q7">
+    <h1>Q7: Smaller And Larger Number</h1>
+    <input type="number" name="number" placeholder="Enter Number..." id="num1_Q7"/>
+    <input type="number" name="number" placeholder="Enter Number..." id="num2_Q7"/>
+
+    <button id="submit_Q7">Submit</button>
+
+    <h3 id="output_SmallerNumber"></h3>
+    <h3 id="output_LargerNumber"></h3>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section id="Q8">
+    <h1>Q8: Roman Numerals</h1>
+    <input type="number" name="number" placeholder="Enter Number from 1 to 10..." id="num_Q8"/>
+
+    <button id="submit_Q8">Submit</button>
+
+    <h3 id="output_Q8"></h3>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section id="Q9">
+    <h1>Q9: Area of Triangle</h1>
+    <p>Triangle 1</p>
+    <input type="number" name="number" placeholder="Enter Length..." id="length1"/>
+    <input type="number" name="number" placeholder="Enter Width..." id="width1"/>
+    <br>
+    <br>
+
+    <p>Triangle 2</p>
+    <input type="number" name="number" placeholder="Enter Length..." id="length2"/>
+    <input type="number" name="number" placeholder="Enter Width..." id="width2"/>
+
+    <button id="submit_Q9">Submit</button>
+
+    <h3 id="output_Q9"></h3>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section id="Q10">
+    <h1>Q10: Magic Date</h1>
+    <input type="number" name="number" placeholder="Enter day..." id="day"/>
+    <input type="number" name="number" placeholder="Enter month..." id="month"/>
+    <input type="number" name="number" placeholder="Enter year..." id="year"/>
+
+    <button id="submit_Q10">Submit</button>
+
+    <h3 id="output_Q10"></h3>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section id="Q11">
+    <h1>Q11: Mass to Weight</h1>
+    <input type="number" name="number" placeholder="Enter Object Mass..." id="mass"/>
+
+    <button id="submit_Q11">Submit</button>
+
+    <h3 id="output_Q11"></h3>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+  
+  <section id="Q12">
+    <h1>Q12: Random Addition</h1>
+    <p id="1stNumber"></p>
+    <p id="2ndNumber"></p>
+    <p>--</p>
+    <input type="number" name="number" placeholder="Enter Answer..." id="answer"/>
+
+    <button id="submit_Q12">Submit</button>
+
+    <script>
+      const num1 = document.getElementById('1stNumber');
+      const num2 = document.getElementById('2ndNumber');
+      num1.textContent = Math.floor(Math.random() * 40) + 10;
+      num2.textContent = Math.floor(Math.random() * 40) + 10;
+    </script>
+    <h3 id="output_Q12"></h3>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section id="Q13">
+    <h1>Q13: Number of Seconds</h1>
+    <input type="number" name="number" placeholder="Enter Number of Seconds..." id="seconds"/>
+
+    <button id="submit_Q13">Submit</button>
+
+    <h3 id="output_Q13"></h3>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section id="Q14">
+    <h1>Q14: Purchase Discount</h1>
+    <input type="number" name="number" placeholder="Enter Number of Units Purchased..." id="unitsPurchased"/>
+
+    <button id="submit_Q14">Submit</button>
+
+    <h3 id="output_Q14"></h3>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section id="Q15">
+    <h1>Q15: Bank Checks Fee</h1>
+    <input type="number" name="number" placeholder="Enter Number of Checks for the Past Month..." id="checks"/>
+
+    <button id="submit_Q15">Submit</button>
+
+    <h3 id="output_Q15"></h3>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section id="Q16">
+    <h1>Q16: Calculations</h1>
+    <br>
+    <p>Calculate the Area of a Circle</p>
+    <input type="number" name="number" placeholder="Enter Radius..." id="radius_Q16"/>
+    <br>
+    <p>Calculate the Area of a Rectangle</p>
+    <input type="number" name="number" placeholder="Enter Length..." id="length_Q16"/>
+    <input type="number" name="number" placeholder="Enter Width..." id="width_Q16"/>
+    <br>
+    <p>Calculate the Area of a Triangle</p>
+    <input type="number" name="number" placeholder="Enter Base Length..." id="base_length_Q16"/>
+    <input type="number" name="number" placeholder="Enter Height..." id="height_Q16"/>
+    <br>
+    <button id="submit_Q16">Submit</button>
+
+    <h3 id="output1_Q16"></h3>
+    <h3 id="output2_Q16"></h3>
+    <h3 id="output3_Q16"></h3>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section id="Q17">
+    <h1>Q17: Calories in Fat grams</h1>
+    <input type="number" name="number" placeholder="Enter Total Calories of Food..." id="calories"/>
+    <input type="number" name="number" placeholder="Enter Fat in Grams of Food..." id="fats"/>
+
+    <button id="submit_Q17">Submit</button>
+
+    <h3 id="output_Q17"></h3>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section id="Q18">
+    <h1>Q18: Wavelength Measure</h1>
+    <input type="number" name="number" placeholder="Enter Wavelength..." id="wavelength"/>
+
+    <button id="submit_Q18">Submit</button>
+
+    <h3 id="output_Q18"></h3>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section id="Q19">
+    <h1>Q19: Internet Bill</h1>
+    <input type="text" name="customerName" placeholder="Enter Customer Name..." id="CustomerName"/>
+    <input type="text" name="packageName" placeholder="Enter Package Name..." id="PackageName"/>
+    <input type="number" name="number" placeholder="Enter Hours Used..." id="hoursUsed"/>
+
+    <button id="submit_Q19">Submit</button>
+
+    <h2>Bill:</h2>
+    <h3 id="output1_Q19"></h3>
+    <h3 id="output2_Q19"></h3>
+    <h3 id="output3_Q19"></h3>
+    <h3 id="output4_Q19"></h3>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section id="Q20">
+    <h1>Q20: Phone Charges</h1>
+    <input type="number" name="number" placeholder="Enter Start Time, Hour..." id="timeHour"/>
+    <input type="number" name="number" placeholder="Enter Start Time, Minutes..." id="timeMin"/>
+    <input type="number" name="number" placeholder="Enter Talk Minutes..." id="TalkMinutes"/>
+
+    <button id="submit_Q20">Submit</button>
+
+    <h3 id="output1_Q20"></h3>
+    <h3 id="output2_Q20"></h3>
+  </section>
+</body>
+</html>
